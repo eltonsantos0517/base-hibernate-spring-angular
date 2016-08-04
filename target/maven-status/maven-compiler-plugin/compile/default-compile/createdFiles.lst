@@ -1,0 +1,7 @@
+com\elton\treinamento\model\entity\App.class
+com\elton\treinamento\model\generic\AbstractDao.class
+com\elton\treinamento\model\generic\IEntity.class
+com\elton\treinamento\controller\AppController.class
+com\elton\treinamento\model\dao\impl\AppDAOImpl.class
+com\elton\treinamento\model\dao\AppDAO.class
+com\elton\treinamento\model\generic\IGenericDao.class
