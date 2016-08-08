@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html data-ng-app="app">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>App</title>
+
+		<base href="/">
+    </head>
+
+    <body data-ng-controller="appController">
+
+		<p>Hello App</p>
+		
+		<button data-ng-click="app()">Teste</button>
+		
+        <!--  <ng-view></ng-view> -->
+		
+        <!-- Angular -->
+        <script charset="utf-8" src="/resources/js/bower_components/angular/angular.js"></script>
+              
+        <!-- Angular Modules -->
+        <script charset="utf-8" src="/resources/js/bower_components/angular-route/angular-route.min.js"></script>
+            
+        <!-- App level -->
+        <script charset="utf-8" src="/resources/js/app.js"></script>
+        <script charset="utf-8" src="/resources/js/config.js"></script>
+        
+        <!-- Controller -->
+		<script charset="utf-8" src="/resources/js/app/app.controller.js"></script>
+    </body>
+</html>
+

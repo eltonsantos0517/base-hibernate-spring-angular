@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
 
 import com.elton.treinamento.model.generic.IEntity;
 
@@ -18,6 +19,7 @@ public class App implements IEntity<Long> {
 	@Column(name = "APP_ID")
 	private Long id;
 
+	@NotNull
 	@Column(name = "APP_DESCRIPTION")
 	private String descrition;
 

@@ -16,7 +16,6 @@ public class AppServiceImpl implements AppService{
 	@Autowired
 	private AppDAO appDao;
 
-	@Override
 	@Transactional
 	public App save(App app) {
 		return appDao.save(app);
