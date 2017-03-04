@@ -1,0 +1,8 @@
+
+spring-hibernate\.iml
+
+\.idea/
+\target/
+/.classpath
+/.project
+/.settings/
