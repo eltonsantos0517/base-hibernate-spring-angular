@@ -108,6 +108,8 @@
 				<version>8.1.2.v20120308</version>
 				<configuration>
 					<!-- No configurations -->
+					<stopKey/>
+					<stopPort/>
 				</configuration>
 				<dependencies>
 					<dependency>
