@@ -2,9 +2,10 @@
 spring-hibernate\.iml
 
 \.idea/
-\target/
 /.classpath
 /.project
 /.settings/
 
 target/
+
+src/main/webapp/\.vscode/
